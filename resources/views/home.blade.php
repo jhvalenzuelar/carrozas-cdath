@@ -236,7 +236,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -358,7 +358,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -479,7 +479,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -600,7 +600,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -721,7 +721,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
