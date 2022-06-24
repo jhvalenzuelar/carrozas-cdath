@@ -13,10 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('user_voting', function (Blueprint $table) {
+        Schema::create('votos', function (Blueprint $table) {
             $table->increments('id');
             $table->bigInteger('userid')->unique();
             $table->string('email');
+            $table->string('carroza');
             $table->timestamps();
         });
     }
@@ -28,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_voting');
+        Schema::dropIfExists('votos');
     }
 };

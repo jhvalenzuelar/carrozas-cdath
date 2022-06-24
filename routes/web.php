@@ -15,3 +15,5 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', HomeController::class);
+
+Route::post('/', [HomeController::class, 'store'])->name('voto.store');

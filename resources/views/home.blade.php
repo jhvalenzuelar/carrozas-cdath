@@ -120,6 +120,9 @@
      <div class="wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
+          @if ( session('mensaje') )
+            <div class="alert alert-success"><h5>{{ session('mensaje') }}</h5></div>
+          @endif
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
@@ -194,6 +197,8 @@
           <div class="modal fade" id="modal-default">
             <div class="modal-dialog">
               <div class="modal-content">
+                <form action="{{route('voto.store')}}" method="post">
+                  @csrf
                 <div class="modal-header">
                   <h4 class="modal-title">Carroza No. 1</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -203,12 +208,12 @@
                 <div class="modal-body">
                   <p>Homenaje a los Mitos y Leyendas del Huila</p>
                   <div class="form-group">
-                    <label for="modalInputNames">Nombres</label>
+                    <label for="modalInputIdent">Número de Identificación</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fas fa-user"></i></div>
                       </div>
-                      <input type="text" name="modalInputNames" class="form-control" id="modalInputNames" placeholder="Nombres y Apellidos">
+                      <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
 
                   </div>
@@ -216,17 +221,19 @@
                     <label for="modalInputEmail">Correo electrónico</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></i></div>
+                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
                       </div>
-                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email">
+                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email" required>
+                      <input type="hidden" name="modalInputCarroza" class="form-control" value="C1">
                     </div>
                   </div>
 
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
+              </form>
               </div>
             <!-- /.modal-content -->
           </div>
@@ -312,6 +319,8 @@
           <div class="modal fade" id="modal-carroza2">
             <div class="modal-dialog">
               <div class="modal-content">
+                <form action="{{route('voto.store')}}" method="post">
+                  @csrf
                 <div class="modal-header">
                   <h4 class="modal-title">Carroza No. 2</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -321,12 +330,12 @@
                 <div class="modal-body">
                   <p>Homenaje a los trajes típicos del baile San Juanero Huilense</p>
                   <div class="form-group">
-                    <label for="modalInputNames">Nombres</label>
+                    <label for="modalInputIdent">Número de Identificación</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fas fa-user"></i></div>
                       </div>
-                      <input type="text" name="modalInputNames" class="form-control" id="modalInputNames" placeholder="Nombres y Apellidos">
+                      <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
 
                   </div>
@@ -334,17 +343,19 @@
                     <label for="modalInputEmail">Correo electrónico</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></i></div>
+                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
                       </div>
-                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email">
+                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email" required>
+                      <input type="hidden" name="modalInputCarroza" class="form-control" value="C2">
                     </div>
                   </div>
 
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
+              </form>
               </div>
             <!-- /.modal-content -->
           </div>
@@ -429,6 +440,8 @@
           <div class="modal fade" id="modal-carroza3">
             <div class="modal-dialog">
               <div class="modal-content">
+                <form action="{{route('voto.store')}}" method="post">
+                  @csrf
                 <div class="modal-header">
                   <h4 class="modal-title">Carroza No. 3</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -438,12 +451,12 @@
                 <div class="modal-body">
                   <p>Homenaje a la gastronomía de las fiestas Sampredrinas en el Municipio de La Plata</p>
                   <div class="form-group">
-                    <label for="modalInputNames">Nombres</label>
+                    <label for="modalInputIdent">Número de Identificación</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fas fa-user"></i></div>
                       </div>
-                      <input type="text" name="modalInputNames" class="form-control" id="modalInputNames" placeholder="Nombres y Apellidos">
+                      <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
 
                   </div>
@@ -451,17 +464,19 @@
                     <label for="modalInputEmail">Correo electrónico</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></i></div>
+                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
                       </div>
-                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email">
+                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email" required>
+                      <input type="hidden" name="modalInputCarroza" class="form-control" value="C3">
                     </div>
                   </div>
 
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
+              </form>
               </div>
             <!-- /.modal-content -->
           </div>
@@ -546,6 +561,8 @@
           <div class="modal fade" id="modal-carroza4">
             <div class="modal-dialog">
               <div class="modal-content">
+                <form action="{{route('voto.store')}}" method="post">
+                  @csrf
                 <div class="modal-header">
                   <h4 class="modal-title">Carroza No. 4</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -555,12 +572,12 @@
                 <div class="modal-body">
                   <p>Homenaje a los concursos tradicionales del San Pedro</p>
                   <div class="form-group">
-                    <label for="modalInputNames">Nombres</label>
+                    <label for="modalInputIdent">Número de Identificación</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fas fa-user"></i></div>
                       </div>
-                      <input type="text" name="modalInputNames" class="form-control" id="modalInputNames" placeholder="Nombres y Apellidos">
+                      <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
 
                   </div>
@@ -568,17 +585,19 @@
                     <label for="modalInputEmail">Correo electrónico</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></i></div>
+                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
                       </div>
-                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email">
+                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email" required>
+                      <input type="hidden" name="modalInputCarroza" class="form-control" value="C4">
                     </div>
                   </div>
 
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
+              </form>
               </div>
             <!-- /.modal-content -->
           </div>
@@ -663,6 +682,8 @@
            <div class="modal fade" id="modal-carroza5">
             <div class="modal-dialog">
               <div class="modal-content">
+                <form action="{{route('voto.store')}}" method="post">
+                  @csrf
                 <div class="modal-header">
                   <h4 class="modal-title">Carroza No. 5</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -672,12 +693,12 @@
                 <div class="modal-body">
                   <p>Homenaje al origen de las festividades Sampedrinas en el Municipio de La Plata</p>
                   <div class="form-group">
-                    <label for="modalInputNames">Nombres</label>
+                    <label for="modalInputIdent">Número de Identificación</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
                         <div class="input-group-text"><i class="fas fa-user"></i></div>
                       </div>
-                      <input type="text" name="modalInputNames" class="form-control" id="modalInputNames" placeholder="Nombres y Apellidos">
+                      <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
 
                   </div>
@@ -685,17 +706,19 @@
                     <label for="modalInputEmail">Correo electrónico</label>
                     <div class="input-group mb-2 mr-sm-2">
                       <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></i></div>
+                        <div class="input-group-text"><i class="fa-solid fa-envelope"></i></div>
                       </div>
-                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email">
+                      <input type="email" name="modalInputEmail" class="form-control" id="modalInputEmail" placeholder="Email" required>
+                      <input type="hidden" name="modalInputCarroza" class="form-control" value="C5">
                     </div>
                   </div>
 
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="button" class="btn btn-primary">Registrar voto</button>
+                  <button type="submit" class="btn btn-primary">Registrar voto</button>
                 </div>
+              </form>
               </div>
             <!-- /.modal-content -->
           </div>
