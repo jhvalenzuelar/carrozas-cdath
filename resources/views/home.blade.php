@@ -121,7 +121,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           @if ( session('mensaje') )
-            <div class="alert alert-success"><h5>{{ session('mensaje') }}</h5></div>
+            <div class="alert alert-success text-center"><h5>{{ session('mensaje') }}</h5></div>
           @endif
           <div class="container-fluid">
             <div class="row mb-2">
@@ -215,6 +215,11 @@
                       </div>
                       <input type="number" name="modalInputIdent" class="form-control" id="modalInputIdent" placeholder="Número de Identificación" required>
                     </div>
+                    @error('modalInputIdent')
+                        <br>
+                        <small>*{{$message}}</small>
+                        <br>
+                      @enderror
 
                   </div>
                   <div class="form-group">
@@ -231,7 +236,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Registrar voto</button>
+                  <button type="button" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -353,7 +358,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Registrar voto</button>
+                  <button type="button" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -474,7 +479,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Registrar voto</button>
+                  <button type="button" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -595,7 +600,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Registrar voto</button>
+                  <button type="button" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>
@@ -716,7 +721,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                  <button type="submit" class="btn btn-primary">Registrar voto</button>
+                  <button type="button" class="btn btn-primary">Registrar voto</button>
                 </div>
               </form>
               </div>

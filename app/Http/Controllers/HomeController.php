@@ -12,6 +12,12 @@ class HomeController extends Controller
     }
 
     public function store(Request $request){
+        
+        $request->validate([
+            'modalInputIdent' => 'required',
+            'modalInputEmail' => 'required'
+        ]);
+
         $voto = new Voto();
 
         $voto->userid = $request->modalInputIdent;
@@ -20,6 +26,7 @@ class HomeController extends Controller
 
         $voto->save();
 
-        return back()->with('mensaje', 'Voto resgistrado');
+        return back()->with('mensaje', 'Gracias, Voto resgistrado corectamente');    
+       
     }
 }
