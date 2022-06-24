@@ -168,7 +168,7 @@
                   </div>
     
                   <div class="mt-4">
-                    <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#modal-default">
+                    <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#">
                       <i class="fa-solid fa-thumbs-up fa-lg mr-2"></i>
                       Registrar voto
                     </div>
@@ -292,7 +292,7 @@
                   </div>
                 
                   <div class="mt-4">
-                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#modal-carroza2">
+                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#">
                       <!-- <i class="fas fa-cart-plus fa-lg mr-2"></i> -->
                         <i class="fa-solid fa-thumbs-up fa-lg mr-2"></i>
                         Registrar voto
@@ -413,7 +413,7 @@
                   </div>
     
                   <div class="mt-4">
-                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#modal-carroza3">
+                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#">
                       <!-- <i class="fas fa-cart-plus fa-lg mr-2"></i> -->
                         <i class="fa-solid fa-thumbs-up fa-lg mr-2"></i>
                         Registrar voto
@@ -534,7 +534,7 @@
                   </div>
     
                  <div class="mt-4">
-                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#modal-carroza4">
+                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#">
                       <!-- <i class="fas fa-cart-plus fa-lg mr-2"></i> -->
                         <i class="fa-solid fa-thumbs-up fa-lg mr-2"></i>
                         Registrar voto
@@ -655,7 +655,7 @@
                   </div>
     
                   <div class="mt-4">
-                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="#modal-carroza5">
+                      <div class="btn btn-primary btn-lg btn-flat" data-toggle="modal" data-target="">
                       <!-- <i class="fas fa-cart-plus fa-lg mr-2"></i> -->
                         <i class="fa-solid fa-thumbs-up fa-lg mr-2"></i>
                         Registrar voto
