@@ -44,7 +44,7 @@
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="{{ asset('dist/img/banner-p2.png') }}" alt="slide 3">
+        <img class="d-block w-100" src="{{ asset('dist/img/banner-c1.png') }}" alt="slide 3">
         <div class="container">
           <div class="carousel-caption">
            <!--  <h1>Título 2.</h1>
@@ -55,27 +55,49 @@
       </div>
 
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
-
+        <img class="d-block w-100" src="{{ asset('dist/img/banner-c2.png') }}" alt="slide 4">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Título 2.</h1>
-            <p>Contenido 2.</p>
+           <!--  <h1>Título 2.</h1>
+            <p>Contenido 2.</p> -->
           <!--   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        
+        <img class="d-block w-100" src="{{ asset('dist/img/banner-c3.png') }}" alt="slide 5">
         <div class="container">
-          <div class="carousel-caption text-right">
-            <h1>Título 3.</h1>
-            <p>Contenido 3.</p>
-         <!--    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+          <div class="carousel-caption">
+           <!--  <h1>Título 2.</h1>
+            <p>Contenido 2.</p> -->
+          <!--   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
           </div>
         </div>
       </div>
+
+     <div class="carousel-item">
+        <img class="d-block w-100" src="{{ asset('dist/img/banner-c4.png') }}" alt="slide 6">
+        <div class="container">
+          <div class="carousel-caption">
+           <!--  <h1>Título 2.</h1>
+            <p>Contenido 2.</p> -->
+          <!--   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{{ asset('dist/img/banner-c5.png') }}" alt="slide 7">
+        <div class="container">
+          <div class="carousel-caption">
+           <!--  <h1>Título 2.</h1>
+            <p>Contenido 2.</p> -->
+          <!--   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+          </div>
+        </div>
+      </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
