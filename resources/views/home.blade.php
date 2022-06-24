@@ -147,8 +147,8 @@
                   <div class="col-12 product-image-thumbs">
                     <div class="product-image-thumb thumb1 active"><img src="dist/img/carroza-1-1.jpeg" alt="Carroza Image1"></div>
                     <div class="product-image-thumb thumb1"><img src="dist/img/carroza-1-2.png" alt="Carroza Image2"></div>
-                    <div class="product-image-thumb thumb1"><img src="dist/img/carroza-1-3.jpg" alt="Carroza Image3"></div>
-                    <div class="product-image-thumb thumb1"><img src="dist/img/carroza-1-4.jpg" alt="Carroza Image4"></div>
+                    <div class="product-image-thumb thumb1"><img src="dist/img/carroza-1-3.JPG" alt="Carroza Image3"></div>
+                    <div class="product-image-thumb thumb1"><img src="dist/img/carroza-1-4.JPG" alt="Carroza Image4"></div>
                    <!--  <div class="product-image-thumb thumb1"><img src="dist/img/photo5.jpg" alt="Carroza Image5"></div> -->
                   </div>
                 </div>
@@ -271,8 +271,8 @@
                   <div class="col-12 product-image-thumbs">
                     <div class="product-image-thumb thumb2 active"><img src="dist/img/carroza-2-1.jpeg" alt="Carroza Image1"></div>
                     <div class="product-image-thumb thumb2" ><img src="dist/img/carroza-2-2.png" alt="Carroza Image2"></div>
-                    <div class="product-image-thumb thumb2" ><img src="dist/img/carroza-2-3.jpg" alt="Carroza Image3"></div>
-                    <div class="product-image-thumb thumb2" ><img src="dist/img/carroza-2-4.jpg" alt="Carroza Image4"></div>
+                    <div class="product-image-thumb thumb2" ><img src="dist/img/carroza-2-3.JPG" alt="Carroza Image3"></div>
+                    <div class="product-image-thumb thumb2" ><img src="dist/img/carroza-2-4.JPG" alt="Carroza Image4"></div>
                     <!-- <div class="product-image-thumb thumb2" ><img src="dist/img/photo5.jpg" alt="Carroza Image5"></div> -->
                   </div>
                 </div>
@@ -392,8 +392,8 @@
                   <div class="col-12 product-image-thumbs">
                     <div class="product-image-thumb thumb3 active"><img src="dist/img/carroza-3-1.jpeg" alt="Carroza Image1"></div>
                     <div class="product-image-thumb thumb3" ><img src="dist/img/carroza-3-2.png" alt="Carroza Image2"></div>
-                    <div class="product-image-thumb thumb3" ><img src="dist/img/carroza-3-3.jpg" alt="Carroza Image3"></div>
-                    <div class="product-image-thumb thumb3" ><img src="dist/img/carroza-3-4.jpg" alt="Carroza Image4"></div>
+                    <div class="product-image-thumb thumb3" ><img src="dist/img/carroza-3-3.JPG" alt="Carroza Image3"></div>
+                    <div class="product-image-thumb thumb3" ><img src="dist/img/carroza-3-4.JPG" alt="Carroza Image4"></div>
                     <!-- <div class="product-image-thumb thumb3" ><img src="dist/img/photo2.png" alt="Carroza Image5"></div> -->
                   </div>
                 </div>
@@ -513,8 +513,8 @@
                   <div class="col-12 product-image-thumbs">
                     <div class="product-image-thumb thumb4 active"><img src="dist/img/carroza-4-1.jpeg" alt="Carroza Image1"></div>
                     <div class="product-image-thumb thumb4" ><img src="dist/img/carroza-4-2.png" alt="Carroza Image2"></div>
-                    <div class="product-image-thumb thumb4" ><img src="dist/img/carroza-4-3.jpg" alt="Carroza Image3"></div>
-                    <div class="product-image-thumb thumb4" ><img src="dist/img/carroza-4-4.jpg" alt="Carroza Image4"></div>
+                    <div class="product-image-thumb thumb4" ><img src="dist/img/carroza-4-3.JPG" alt="Carroza Image3"></div>
+                    <div class="product-image-thumb thumb4" ><img src="dist/img/carroza-4-4.JPG" alt="Carroza Image4"></div>
                   <!--   <div class="product-image-thumb thumb4" ><img src="dist/img/photo2.png" alt="Carroza Image5"></div> -->
                   </div>
                 </div>
@@ -634,8 +634,8 @@
                   <div class="col-12 product-image-thumbs">
                     <div class="product-image-thumb thumb5 active"><img src="dist/img/carroza-5-1.jpeg" alt="Carroza Image1"></div>
                     <div class="product-image-thumb thumb5" ><img src="dist/img/carroza-5-2.png" alt="Carroza Image2"></div>
-                    <div class="product-image-thumb thumb5" ><img src="dist/img/carroza-5-3.jpg" alt="Carroza Image3"></div>
-                    <div class="product-image-thumb thumb5" ><img src="dist/img/carroza-5-4.jpg" alt="Carroza Image4"></div>
+                    <div class="product-image-thumb thumb5" ><img src="dist/img/carroza-5-3.JPG" alt="Carroza Image3"></div>
+                    <div class="product-image-thumb thumb5" ><img src="dist/img/carroza-5-4.JPG" alt="Carroza Image4"></div>
                    <!--  <div class="product-image-thumb thumb5" ><img src="dist/img/photo2.jpg" alt="Carroza Image5"></div> -->
                   </div>
                 </div>
